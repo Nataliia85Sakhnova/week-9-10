@@ -1,8 +1,59 @@
-.header .h6 {
-    font-family: Montserrat;
+.h1 .h2 .h3 .h4 .h5 .h6 .body_l .body_s .meta {
     font-style: normal;
-    font-weight: bold;
+}
+
+// а что такое line height?
+.h1 .h2 .h3 {
+    color: #000;
+    font: Playfair Display;
+    font-weight: 700;
+}
+
+.h4 .h5 .h6 .body_l .body_s .meta {
+    color: #111;
+    font: Montserrat;
+}
+
+.h4 .h5 .h6 {
+    font-weight: 700;
+}
+
+.body_l .body_s .meta {
+    font-weight: 400;
+}
+
+.h1 {
+    font-size: 31.25px;
+}
+
+.h2 {
+    font-size: 25px;
+}
+
+.h3 {
+    font-size: 20px;
+}
+
+.h4 {
+    font-size: 25px;
+}
+
+.h5 {
+    font-size: 20px;
+}
+
+.h6 {
     font-size: 16px;
-    line-height: 20px;
-    color: #4F4F4F;
+}
+
+.body_l {
+    font-size: 16px;
+}
+
+.body_s {
+    font-size: 12px;
+}
+
+.meta {
+    font-size: 10px;
 }

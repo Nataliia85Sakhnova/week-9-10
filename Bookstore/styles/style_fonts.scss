@@ -1,4 +1,4 @@
-.h1 .h2 .h3 .h4 .h5 .h6 .body_l .body_s .meta {
+.h1 .h2 .h3 .h4 .h5 .h6 .body_l .body_s .meta .button-text {
     font-style: normal;
 }
 
@@ -26,27 +26,15 @@
     font-size: 31.25px;
 }
 
-.h2 {
+.h2 .h4 {
     font-size: 25px;
 }
 
-.h3 {
+.h3 .h5 {
     font-size: 20px;
 }
 
-.h4 {
-    font-size: 25px;
-}
-
-.h5 {
-    font-size: 20px;
-}
-
-.h6 {
-    font-size: 16px;
-}
-
-.body_l {
+.h6 .body_l .button-text {
     font-size: 16px;
 }
 
@@ -56,4 +44,9 @@
 
 .meta {
     font-size: 10px;
+}
+
+.button-text {
+    font-weight: 600;
+    align-items: center;
 }

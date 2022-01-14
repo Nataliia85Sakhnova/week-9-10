@@ -1,4 +1,4 @@
-.h1 .h2 .h3 .h4 .h5 .h6 .body_l .body_s .meta .button-text {
+.h1 .h2 .h3 .h4 .h5 .h6 .body_l .body_s .meta .button-text .nav-bar {
     font-style: normal;
 }
 
@@ -18,7 +18,7 @@
     font-weight: 700;
 }
 
-.body_l .body_s .meta {
+.body_l .body_s .meta .nav-bar {
     font-weight: 400;
 }
 
@@ -49,4 +49,12 @@
 .button-text {
     font-weight: 600;
     align-items: center;
+    color: #fff;
+    font: Montserrat;
+}
+
+.nav-bar {
+    font: Montserrat;
+    font-weight: 400;
+    color: blue;
 }

@@ -5,22 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" href="styles/style.css">
-    <title>Bookstore</title>
+    <title> Bookstore</title>
+    <link rel="shortcut icon" src="assets/img/book-stack.png" type="image/svg">
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
 
-        <div>
-            <h6>Home</h6>
+        <div class="header__logo">
+            <a href="/">
+                <h6 class="h6">Home</h6>
+            </a>
         </div>
-        <div>
-            <img src="../Bookstore/assets/img/header/header__icon-search.svg" alt="Search">
-        </div>
-        <div>
-            <img src="../Bookstore/assets/img/header/header__icon-basket.svg" alt="Basket">
+        <div class="header__icons">
+            <div class="header__icon-search">
+                <a href="/">
+                    <img src="assets/img/header/header__icon-search.svg" alt="Search">
+                </a>
+            </div>
+            <div class="header__icon-basket">
+                <a href="/">
+                    <img src="assets/img/header/header__icon-basket.svg" alt="Basket">
+                </a>
+            </div>
         </div>
 
     </header>

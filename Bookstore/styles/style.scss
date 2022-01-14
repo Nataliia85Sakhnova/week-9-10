@@ -1,10 +1,9 @@
+@import "fonts";
+@import "typography";
+@import "style_colors";
 @import "style_fonts";
 @import "style_variables";
-@import "style_bookpage";
-@import "style_blocks";
-@import "style_colors";
-@import "style_footer";
-@import "style_header";
 @import "style_img";
-@import "style_buttons";
 @import "style_mixin";
+@import "blocks/style_footer.scss";
+@import "blocks/style_header.scss";

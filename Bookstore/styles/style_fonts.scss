@@ -1,24 +1,46 @@
-.h1 .h2 .h3 .h4 .h5 .h6 .body_l .body_s .meta .button-text .nav-bar {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.body_l,
+.body_s,
+.meta,
+.button-text,
+.nav-bar {
     font-style: normal;
 }
 
 // а что такое line height?
-.h1 .h2 .h3 {
+.h1,
+.h2,
+.h3 {
     color: #000;
-    font: Playfair Display;
+    font-family: $main-font;
     font-weight: 700;
 }
 
-.h4 .h5 .h6 .body_l .body_s .meta {
+.h4,
+.h5,
+.h6,
+.body_l,
+.body_s,
+.meta {
     color: #111;
-    font: Montserrat;
+    font-family: $other-font;
 }
 
-.h4 .h5 .h6 {
+.h4,
+.h5,
+.h6 {
     font-weight: 700;
 }
 
-.body_l .body_s .meta .nav-bar {
+.body_l,
+.body_s,
+.meta,
+.nav-bar {
     font-weight: 400;
 }
 
@@ -26,15 +48,19 @@
     font-size: 31.25px;
 }
 
-.h2 .h4 {
+.h2,
+.h4 {
     font-size: 25px;
 }
 
-.h3 .h5 {
+.h3,
+.h5 {
     font-size: 20px;
 }
 
-.h6 .body_l .button-text {
+.h6,
+.body_l,
+.button-text {
     font-size: 16px;
 }
 
@@ -50,11 +76,11 @@
     font-weight: 600;
     align-items: center;
     color: #fff;
-    font: Montserrat;
+    font-family: $other-font;
 }
 
 .nav-bar {
-    font: Montserrat;
+    font-family: $other-font;
     font-weight: 400;
-    color: blue;
+    color: $blue;
 }

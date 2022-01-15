@@ -12,7 +12,6 @@
     font-style: normal;
 }
 
-// а что такое line height?
 .h1,
 .h2,
 .h3 {
@@ -86,8 +85,10 @@
 }
 
 .h6 {
-    //куда это вставить? пусть тут тогда лежит. все равно не работает
-    font-weight: bold;
-    line-height: 20px;
+    font-family: Montserrat-bold;
+
+}
+
+.header__logo-link {
     text-decoration: none;
 }

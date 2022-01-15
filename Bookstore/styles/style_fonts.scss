@@ -16,8 +16,8 @@
 .h1,
 .h2,
 .h3 {
-    color: #000;
-    font-family: $main-font;
+    color: $black;
+    font-family: $play-font;
     font-weight: 700;
 }
 
@@ -27,8 +27,8 @@
 .body_l,
 .body_s,
 .meta {
-    color: #111;
-    font-family: $other-font;
+    color: $grey1;
+    font-family: $montserrat-font;
 }
 
 .h4,
@@ -75,12 +75,19 @@
 .button-text {
     font-weight: 600;
     align-items: center;
-    color: #fff;
-    font-family: $other-font;
+    color: $white;
+    font-family: $montserrat-font;
 }
 
 .nav-bar {
-    font-family: $other-font;
+    font-family: $montserrat-font;
     font-weight: 400;
     color: $blue;
+}
+
+.h6 {
+    //куда это вставить? пусть тут тогда лежит. все равно не работает
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
 }

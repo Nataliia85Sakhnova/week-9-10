@@ -1,23 +1,53 @@
-.h1 .h2 .h3 .h4 .h5 .h6 .body_l .body_s .meta .button-text .nav-bar {
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.body_l,
+.body_s,
+.meta,
+.button-text,
+.nav-bar {
   font-style: normal;
 }
 
-.h1 .h2 .h3 {
-  color: #000;
-  font: Playfair Display;
+.h1,
+.h2,
+.h3 {
+  color: #000000;
+  font-family: PlayfairDisplay, sans-serif;
   font-weight: 700;
 }
 
-.h4 .h5 .h6 .body_l .body_s .meta {
-  color: #111;
-  font: Montserrat;
+.h4,
+.h5,
+.h6,
+.body_l,
+.body_s,
+.meta {
+  color: #111111;
+  font-family: Montserrat, sans-serif;
 }
 
-.h4 .h5 .h6 {
+.h4,
+.h5,
+.h6 {
   font-weight: 700;
 }
 
-.body_l .body_s .meta .nav-bar {
+.body_l,
+.body_s,
+.meta,
+.nav-bar {
   font-weight: 400;
 }
 
@@ -25,15 +55,19 @@
   font-size: 31.25px;
 }
 
-.h2 .h4 {
+.h2,
+.h4 {
   font-size: 25px;
 }
 
-.h3 .h5 {
+.h3,
+.h5 {
   font-size: 20px;
 }
 
-.h6 .body_l .button-text {
+.h6,
+.body_l,
+.button-text {
   font-size: 16px;
 }
 
@@ -49,11 +83,11 @@
   font-weight: 600;
   align-items: center;
   color: #fff;
-  font: Montserrat;
+  font-family: Montserrat, sans-serif;
 }
 
 .nav-bar {
-  font: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
   color: #53889D;
 }
@@ -69,5 +103,5 @@
 
 .header__icons {
   display: flex;
-  gap: 10px;
+  gap: 25px;
 }/*# sourceMappingURL=style.css.map */

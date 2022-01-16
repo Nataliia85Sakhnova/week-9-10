@@ -1,0 +1,11 @@
+.container {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+}/*# sourceMappingURL=style_container.css.map */

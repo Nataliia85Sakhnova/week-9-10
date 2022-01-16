@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-bold;
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.body_l,
+.body_s,
+.meta,
+.button-text,
+.nav-bar {
+  font-style: normal;
+}
+
+.h1,
+.h2,
+.h3 {
+  color: #000000;
+  font-family: PlayfairDisplay, sans-serif;
+  font-weight: 700;
+}
+
+.h4,
+.h5,
+.h6,
+.body_l,
+.body_s,
+.meta {
+  color: #111111;
+  font-family: Montserrat, sans-serif;
+}
+
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+}
+
+.body_l,
+.body_s,
+.meta,
+.nav-bar {
+  font-weight: 400;
+}
+
+.h1 {
+  font-size: 31.25px;
+}
+
+.h2,
+.h4 {
+  font-size: 25px;
+}
+
+.h3,
+.h5 {
+  font-size: 20px;
+}
+
+.h6,
+.body_l,
+.button-text {
+  font-size: 16px;
+}
+
+.body_s {
+  font-size: 12px;
+}
+
+.meta {
+  font-size: 10px;
+}
+
+.button-text {
+  font-weight: 600;
+  align-items: center;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+}
+
+.nav-bar {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #53889D;
+}
+
+.h6 {
+  font-family: Montserrat-bold;
+}
+
+.header__logo-link {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  align-items: center;
+  top: 0;
+}
+
+.header__icons {
+  display: flex;
+  gap: 25px;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */

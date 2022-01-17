@@ -12,7 +12,10 @@
     font-style: normal;
 }
 
-.h1,
+.h1 {
+    font-family: $play-font-bold;
+}
+
 .h2,
 .h3 {
     color: $black;

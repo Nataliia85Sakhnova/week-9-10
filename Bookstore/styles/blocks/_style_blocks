@@ -1,0 +1,18 @@
+.main__populargenres-icon {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 27px;
+    top: 1077px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+    border-radius: 8px;
+    /* padding: 22px; */
+}
+
+.main__populargenres-icon {
+    margin: 22px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}

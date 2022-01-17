@@ -42,13 +42,17 @@
         <main class="main">
 
             <!-- здесь явно должно быть имя пользователя -->
-            <h1>Welcome back,
-                <br> #username!
-            </h1>
+            <div>
+                <h1 class="main__welcome-title">Welcome back,
+                    <br> #username!
+                </h1>
+            </div>
 
             <div>
                 <!-- а здесь дата последнего посещения сайта -->
-                <p>We’re glad to see you just 16 days after your last visit and can’t wait to help you find your next
+                <p class="main__welcome-text">We’re glad to see you just 16 days after your last visit and can’t wait to
+                    help you find
+                    your next
                     page
                     turner!</p>
             </div>
@@ -76,62 +80,68 @@
             <div>
                 <!-- genre_cards -->
             </div>
+
         </main>
 
-        <footer>
-            <div>home</div>
-            <div>browse</div>
-            <div>wishlist</div>
-            <div>profile</div>
-        </footer>
+        <footer class="footer">
 
-
-
-        <main>
-
-            <!-- здесь явно должно быть имя пользователя -->
-            <h1>Welcome back,
-                <br> #username!
-            </h1>
-
-            <div>
-                <!-- а здесь дата последнего посещения сайта -->
-                <p>We’re glad to see you just 16 days after your last visit and can’t wait to help you find your next
-                    page
-                    turner!</p>
+            <div class="footer__content">
+                <div class="footer__content-icon">
+                    <a href="/">
+                        <img src="assets/img/footer/footer__icon-home.svg" alt="home">
+                    </a>
+                </div>
+                <div>
+                    <p class="nav-bar">home</p>
+                </div>
             </div>
 
-            <h2>Popular Lists</h2>
+            <div class="footer__content">
 
-            <div>
-                <!-- carousel_theme-cards -->
+                <div class="footer__content-icon">
+                    <a href="/">
+                        <img src="assets/img/footer/footer__icon-map.svg" alt="browse">
+                    </a>
+                </div>
+
+                <div class="footer__content-inscription">
+                    <p class="nav-bar">browse</p>
+                </div>
+
             </div>
 
-            <h2>Top 10 Authors</h2>
 
-            <div>
-                <!-- authors_smakufhglcsiduhgms;ivthll-round-cards -->
+            <div class="footer__content">
+
+                <div class="footer__content-icon">
+                    <a href="/">
+                        <img src="assets/img/footer/footer__icon-heart.svg" alt="wishlist">
+                    </a>
+                </div>
+
+                <div class="footer__content-inscription">
+                    <p class="nav-bar">wishlist</p>
+                </div>
+
             </div>
 
-            <h2>Latest Arrivals</h2>
+            <div class="footer__content">
 
-            <div>
-                <!-- book_cards -->
+                <div class="footer__content-icon">
+                    <a href="/">
+                        <img src="assets/img/footer/footer__icon-user.svg" alt="profile">
+                    </a>
+                </div>
+
+                <div class="footer__content-inscription">
+                    <p class="nav-bar">profile</p>
+                </div>
+
             </div>
 
-            <h2>Popular Genres</h2>
+    </div>
 
-            <div>
-                <!-- genre_cards -->
-            </div>
-        </main>
-
-        <footer>
-            <div>home</div>
-            <div>browse</div>
-            <div>wishlist</div>
-            <div>profile</div>
-        </footer>
+    </footer>
 
 
 

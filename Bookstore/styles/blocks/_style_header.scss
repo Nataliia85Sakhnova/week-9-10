@@ -8,6 +8,10 @@
     top: 0;
 }
 
+.header__logo-link {
+    color: $grey2;
+}
+
 .header__icons {
     display: flex;
     gap: 25px;

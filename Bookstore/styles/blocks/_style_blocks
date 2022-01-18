@@ -1,17 +1,22 @@
-.main__populargenres-icon {
-    position: absolute;
-    width: 76px;
-    height: 76px;
-    left: 27px;
-    top: 1077px;
-    background: #FFFFFF;
+.main__populargenres {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.main__populargenres-card {
+    width: 23%;
+    background-color: #fff;
+    /* не могу поставить цвет через доллар */
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
     border-radius: 8px;
-    /* padding: 22px; */
+    padding: 22px;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .main__populargenres-icon {
-    margin: 22px;
     position: absolute;
     width: 32px;
     height: 32px;

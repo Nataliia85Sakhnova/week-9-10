@@ -19,7 +19,7 @@
 .h2,
 .h3 {
     color: $black;
-    font-family: $play-font;
+    font-family: $play-font-bold;
     font-weight: 700;
 }
 
@@ -93,5 +93,9 @@
 }
 
 .header__logo-link {
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }

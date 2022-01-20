@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: Montserrat;
   src: url(../assets/fonts/Montserrat-Regular.ttf);
@@ -35,7 +36,7 @@
 .h2,
 .h3 {
   color: #000000;
-  font-family: PlayfairDisplay, sans-serif;
+  font-family: PlayfairDisplay-bold, sans-serif;
   font-weight: 700;
 }
 
@@ -111,6 +112,10 @@
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .footer {
   background-color: #ffffff;
   box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
@@ -118,6 +123,7 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: nowrap;
+  padding-top: 3vh;
 }
 
 .footer__content {
@@ -154,4 +160,96 @@
   flex-grow: 1;
   overflow: auto;
   padding: 5vh;
+}
+
+.main__populargenres {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.main__populargenres-card {
+  background-color: #fff;
+  /* не могу поставить цвет через доллар */
+  box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+  border-radius: 8px;
+  padding: 22px;
+  justify-content: center;
+  text-align: center;
+}
+
+.main__populargenres-icon {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.main__genges-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main__authors-card-conteiner {
+  display: inline-flex;
+}
+
+.main__authors-icon1 {
+  width: 5vh;
+  height: 5vh;
+  background-image: url("/assets/img/main__authors/author1_Victoria-Edwards.png");
+  background-size: contain;
+}
+
+.main__authors-icon2 {
+  width: 5vh;
+  height: 5vh;
+  background-image: url("/assets/img/main__authors/author2_Connie-Lane.png");
+  background-size: contain;
+}
+
+.main__authors-icon3 {
+  width: 5vh;
+  height: 5vh;
+  background-image: url("/assets/img/main__authors/author3_Wade-Richards.png");
+  background-size: contain;
+}
+
+.main__authors-icon4 {
+  width: 5vh;
+  height: 5vh;
+  background-image: url("/assets/img/main__authors/author4_Mitchell-Cooper.png");
+  background-size: contain;
+}
+
+.main__authors-icon5 {
+  width: 5vh;
+  height: 5vh;
+  background-image: url("/assets/img/main__authors/author5_Irma-Bell.png");
+  background-size: contain;
+}
+
+.main__authors-icon6 {
+  width: 5vh;
+  height: 5vh;
+  background-image: url("/assets/img/main__authors/author1_Victoria-Edwards.png");
+  background-size: contain;
+}
+
+.main__authors-icon7 {
+  width: 5vh;
+  height: 5vh;
+  background-image: url("/assets/img/main__authors/author2_Connie-Lane.png");
+  background-size: contain;
+}
+
+.main__authors-card {
+  width: 10vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overflow {
+  overflow-x: scroll;
 }/*# sourceMappingURL=style.css.map */

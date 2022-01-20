@@ -5,7 +5,6 @@
 }
 
 .main__populargenres-card {
-    width: 23%;
     background-color: #fff;
     /* не могу поставить цвет через доллар */
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
@@ -17,7 +16,11 @@
 }
 
 .main__populargenres-icon {
-    position: absolute;
-    width: 32px;
-    height: 32px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.main__genges-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }

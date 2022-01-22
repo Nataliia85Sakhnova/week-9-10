@@ -184,6 +184,34 @@ a {
   justify-content: center;
 }
 
+.main__latestarrival-container {
+  display: inline-flex;
+}
+
+.main__arrivals-card {
+  width: 160px;
+}
+
+.main__arrivals-icon1 {
+  width: 142.79px;
+  height: 216px;
+  background-image: url("/assets/img/main__arrivals/main__arrival1-Conversation-with-friends.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main__arrivals-icon2 {
+  width: 142.79px;
+  height: 216px;
+  background-image: url("/assets/img/main__arrivals/main__arrival2-The-world-doesn'n require you.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main__latestarrival p {
+  line-height: 100%;
+}
+
 .main__authors-card-conteiner {
   display: inline-flex;
 }
@@ -249,6 +277,5 @@ a {
 .scroll {
   overflow-x: auto;
   overflow-y: hidden;
-  background-color: #f4faf4;
   width: 90vw;
 }/*# sourceMappingURL=style.css.map */

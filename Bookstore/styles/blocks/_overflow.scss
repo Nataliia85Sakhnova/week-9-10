@@ -1,5 +1,14 @@
 // .overflow {
-//     // overflow-x: scroll;
+//     overflow-x: auto;
+//     overflow-y: hidden;}
+
+.scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #f4faf4;
+    width: 300px;
+}
+
 //     // transform: rotate(-90deg) translateY(-100px);
 //     position: absolute;
 //     display: block;

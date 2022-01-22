@@ -1,25 +1,25 @@
-.main__populargenres {
+.main__genres {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
-.main__populargenres-card {
+.main__genres-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main__genres-card {
+
+    text-align: center;
+
+}
+
+.main__genres-card-item {
     background-color: $white;
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
     border-radius: 8px;
     padding: 22px;
     justify-content: center;
-    text-align: center;
 
-}
-
-// .main__populargenres-icon {
-//     display: grid;
-//     grid-template-columns: repeat(5, 1fr);
-// }
-
-.main__populargenges-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
 }

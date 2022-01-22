@@ -5,8 +5,7 @@
 }
 
 .main__populargenres-card {
-    background-color: #fff;
-    /* не могу поставить цвет через доллар */
+    background-color: $white;
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
     border-radius: 8px;
     padding: 22px;
@@ -15,12 +14,12 @@
 
 }
 
-.main__populargenres-icon {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
+// .main__populargenres-icon {
+//     display: grid;
+//     grid-template-columns: repeat(5, 1fr);
+// }
 
-.main__genges-container {
+.main__populargenges-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }

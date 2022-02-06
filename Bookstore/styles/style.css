@@ -161,12 +161,6 @@ a {
   padding: 5vh;
 }
 
-.main__genres {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
 .main__genres-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -184,6 +178,11 @@ a {
   justify-content: center;
 }
 
+@media (min-width: 1025px) {
+  .main__genres-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
 .main__latestarrival-container {
   display: inline-flex;
 }
@@ -210,6 +209,28 @@ a {
 
 .main__latestarrival p {
   line-height: 100%;
+}
+
+.main__lists-conteiner {
+  display: inline-flex;
+}
+
+.main__lists-card {
+  width: 216px;
+  height: 128px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
+  margin: 10px;
+}
+
+.main__lists-card-backgroung1 {
+  background-color: #D96F6E;
+  border-radius: 8px;
+}
+
+.main__lists-card-backgroung2 {
+  background-color: #BBD1D9;
+  border-radius: 8px;
 }
 
 .main__authors-card-conteiner {

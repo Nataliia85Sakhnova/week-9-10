@@ -1,8 +1,8 @@
-.main__genres {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
+// .main__genres {
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: space-between;
+// }
 
 .main__genres-container {
     display: grid;
@@ -21,4 +21,10 @@
     padding: 22px;
     justify-content: center;
 
+}
+
+@media (min-width: $big-tablet) {
+    .main__genres-container {
+        grid-template-columns: repeat(6, 1fr);
+    }
 }

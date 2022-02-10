@@ -11,34 +11,46 @@
 }
 
 .main__lists-card-backgroung1 {
+    width: 216px;
+    height: 128px;
     background-color: $blush;
     border-radius: 8px;
 }
 
 .main__lists-card-backgroung2 {
+    width: 216px;
+    height: 128px;
     background-color: $baby_blue;
     border-radius: 8px;
 }
 
-// .main__lists-card-img1 {
-//     display: flex;
-//     background-image: url("/assets/img/main__lists/main__list1-background.svg");
-//     border-radius: 8px;
-//     // background-size: contain;
-//     // background-repeat: no-repeat;
-// }
+.main__lists-card-img1 {
+    width: 216px;
+    height: 128px;
+    display: flex;
+    background-image: url("/assets/img/main__lists/main__list1-background.svg");
+    border-radius: 8px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+}
 
-// .main__lists-card-img2 {
-//     display: flex;
-//     text-align: center;
-// }
+.main__lists-card-img2 {
+    width: 216px;
+    height: 128px;
+    display: flex;
+    text-align: center;
+}
 
-// .main__lists-card-inscription {
-//     align-self: flex-end;
-//     text-decoration-color: $white;
-// }
+.main__lists-card-inscription {
+    align-self: flex-end;
+    text-decoration-color: $white;
+    // padding-left: 20px;
+}
 
-// .main__lists-card-inscription>p {
-//     line-height: 10%;
-//     text-decoration-color: $white;
-// }
+.main__lists-card-inscription>p {
+    line-height: 10%;
+    text-decoration-color: $white;
+}
